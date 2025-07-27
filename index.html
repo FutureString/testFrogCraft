@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrogCraft</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        body {
+            color: #333;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-image: url("FrogCraft1.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+    backdrop-filter: blur(4px);
+        }
+        header {
+            text-align: center;
+            margin: 40px 0 60px;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        .title {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        .intro {
+            max-width: 600px;
+            margin: 0 auto 30px;
+            color: #555;
+        }
+        nav {
+            margin: 30px 0;
+        }
+        nav a {
+            margin: 0 12px;
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 5px 0;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.3s;
+        }
+        nav a:hover {
+            border-color: #333;
+        }
+        section {
+            margin: 80px 0;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .item {
+            margin-bottom: 40px;
+        }
+        .item h3 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+        .item .meta {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        .item p {
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            margin: 80px 0 40px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        .links {
+            margin-top: 15px;
+        }
+        .links a {
+            color: #666;
+            margin: 0 8px;
+            text-decoration: none;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部信息 -->
+    <header>
+        <img src="FrogCraft.jpg" alt="头像" class="avatar">
+        <h1>FrogCraft</h1>
+        <div class="title">蛙语</div>
+        <p class="intro">Welcome to the FrogCraft 欢迎来到蛙语</p>
+        <nav>
+            <a href="#about">关于</a>
+            <a href="#work">作品</a>
+            <a href="#experience">其他</a>
+            <a href="#contact">联系</a>
+        </nav>
+    </header>
+
+    <!-- 关于我 -->
+    <section id="about">
+        <h2>关于FrogCraft.蛙语</h2>
+        <p>蛙蛙的故乡</p>
+        <p>当前处于测试阶段</p>
+    </section>
+
+    <!-- 作品/项目 -->
+    <section id="work">
+        <h2>作品</h2>
+        <div class="item">
+            <h3>青蛙表情包</h3>
+            <div class="meta">2025.7.5 | meshy photoshop</div>
+            <p>暂无更多</p>
+        </div>
+        <div class="item">
+            <h3>短片</h3>
+            <div class="meta">2025.7.17 | viggle</div>
+            <p>暂无更多</p>
+        </div>
+    </section>
+
+    <!-- 经历 -->
+    <section id="experience">
+        <h2>经历</h2>
+        <div class="item">
+            <h3>蛙蛙的出身</h3>
+            <div class="meta">青蛙史诗</div>
+            <p>待上线</p>
+        </div>
+        <div class="item">
+            <h3>蛙蛙背景</h3>
+            <div class="meta">只不过是一只可爱的青蛙</div>
+            <p>暂无更多</p>
+        </div>
+    </section>
+
+    <!-- 联系 -->
+    <section id="contact">
+        <h2>联系我</h2>
+        <p>微博:FrogCraft 哔哩哔哩:1626285590</p>
+        <div class="links">
+            <a href="mailto:your@email.com">邮箱</a>
+            <a href="https://github.com/yourname">GitHub</a>
+            <a href="https://weibo.com/yourname">QQ</a>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2023 你的名字</p>
+        <div class="links">
+            <a href="#about">关于</a>
+            <a href="#work">作品</a>
+            <a href="#experience">历史</a>
+            <a href="#contact">联系</a>
+        </div>
+    </footer>
+</body>
+</html>
